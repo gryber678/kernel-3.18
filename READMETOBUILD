@@ -1,0 +1,7 @@
+                                         ONLY TO BUILD 64BIT KERNEL
+                                             Doogee x5 max pro
+
+make O=~/Source/kernel-3.18/out/target/product/n370b/obj/KERNEL_OBJ64_new ARCH=arm64 CROSS_COMPILE=~/Source/kernel-3.18/toolchains/aarch64-linux-android-4.9/bin/aarch64-linux-android- n370b_defconfig
+
+make O=~/Source/kernel-3.18/out/target/product/n370b/obj/KERNEL_OBJ64_new ARCH=arm64 CROSS_COMPILE=~/Source/kernel-3.18/toolchains/aarch64-linux-android-4.9/bin/aarch64-linux-android- -j5
+
